@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectskripsi170101007">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".plumbing.DeactivatePlumbing"></activity>
+        <activity android:name=".lift.DeactivateLift" />
+        <activity android:name=".hvac.DeactivateHvac" />
+        <activity android:name=".electronic.DeactivateElectronic" />
+        <activity android:name=".electrical.DeactivateElectrical" />
+        <activity android:name=".electrical.ReportElectrical" />
+        <activity android:name=".ViewDesignHistoryCivil" />
+        <activity android:name=".civil.HistoryListPmCivil" />
+        <activity android:name=".civil.AddHistoryPmCivil" />
+        <activity android:name=".civil.Update4WoCivil" />
+        <activity android:name=".civil.Update3WoCivil" />
+        <activity android:name=".civil.Update2WoCivil" />
+        <activity android:name=".plumbing.Update4WoPlumbing" />
+        <activity android:name=".plumbing.Update3WoPlumbing" />
+        <activity android:name=".plumbing.Update2WoPlumbing" />
+        <activity android:name=".lift.Update4WoLift" />
+        <activity android:name=".lift.Update3WoLift" />
+        <activity android:name=".lift.Update2WoLift" />
+        <activity android:name=".hvac.Update4WoHvac" />
+        <activity android:name=".hvac.Update3WoHvac" />
+        <activity android:name=".hvac.Update2WoHvac" />
+        <activity android:name=".electronic.Update4WoElectronic" />
+        <activity android:name=".electronic.Update3WoElectronic" />
+        <activity android:name=".electronic.Update2WoElectronic" />
+        <activity android:name=".electrical.Update4WoElectrical" />
+        <activity android:name=".electrical.Update3WoElectrical" />
+        <activity android:name=".electrical.Update2WoElectrical" />
+        <activity android:name=".electrical.MyListWoElectricalDone" />
+        <activity android:name=".sop.LiftProcedure" />
+        <activity android:name=".sop.PlumbingProcedure" />
+        <activity android:name=".sop.HvacProcedure" />
+        <activity android:name=".sop.ElectronicProcedure" />
+        <activity android:name=".sop.ElectricalProcedure" />
+        <activity android:name=".sop.MainProcedure" />
+        <activity android:name=".lift.HistoryListPmLift" />
+        <activity android:name=".lift.AddHistoryPmLift" />
+        <activity android:name=".electronic.HistoryListPmElectronic" />
+        <activity android:name=".electronic.AddHistoryPmElectronic" />
+        <activity android:name=".plumbing.HistoryListPmPlumbing" />
+        <activity android:name=".plumbing.AddHistoryPmPlumbing" />
+        <activity android:name=".hvac.HistoryListPmHvac" />
+        <activity android:name=".hvac.AddHistoryPmHvac" />
+        <activity android:name=".electrical.AddHistoryPmElectrical" />
+        <activity android:name=".electrical.HistoryListPmElectrical" />
+        <activity android:name=".ViewDesignHistoryPm" />
+        <activity android:name=".SignUpActivity" />
+        <activity android:name=".electronic.ViewDesignElectronic" />
+        <activity android:name=".plumbing.ViewDesignPlumbing" />
+        <activity android:name=".hvac.ViewDesignHvac" />
+        <activity android:name=".electrical.ViewDesignElectrical" />
+        <activity android:name=".ViewDesignLift" />
+        <activity android:name=".lift.Update1WoLift" />
+        <activity android:name=".lift.UpdateLift" />
+        <activity android:name=".lift.MyListWoLift" />
+        <activity android:name=".lift.MyListLift" />
+        <activity android:name=".lift.AddWoLift" />
+        <activity android:name=".lift.AddLift" />
+        <activity android:name=".electronic.Update1WoElectronic" />
+        <activity android:name=".electronic.UpdateElectronic" />
+        <activity android:name=".electronic.MyListWoElectronic" />
+        <activity android:name=".electronic.MyListElectronic" />
+        <activity android:name=".electronic.addWoElectronic" />
+        <activity android:name=".electronic.addElectronic" />
+        <activity android:name=".ViewDesignCivil" />
+        <activity android:name=".civil.Update1WoCivil" />
+        <activity android:name=".civil.MyListWoCivil" />
+        <activity android:name=".civil.AddWoCivil" />
+        <activity android:name=".ui.workorder.Workorder" />
+        <activity android:name=".toolbar" />
+        <activity android:name=".plumbing.Update1WoPlumbing" />
+        <activity android:name=".plumbing.MyListWoPlumbing" />
+        <activity android:name=".hvac.Update1WoHvac" />
+        <activity android:name=".hvac.MyListWoHvac" />
+        <activity android:name=".plumbing.addWoPlumbing" />
+        <activity android:name=".plumbing.UpdatePlumbing" />
+        <activity android:name=".plumbing.MyListPlumbing" />
+        <activity android:name=".plumbing.AddPlumbing" />
+        <activity android:name=".hvac.addWoHvac" />
+        <activity android:name=".hvac.UpdateHvac" />
+        <activity android:name=".hvac.MyListHvac" />
+        <activity android:name=".hvac.AddHvac" />
+        <activity android:name=".electrical.Update1WoElectrical" />
+        <activity android:name=".electrical.MyListWoElectrical" />
+        <activity android:name=".ViewDesign2" />
+        <activity android:name=".electrical.addWoElectrical" />
+        <activity android:name=".electrical.UpdateElectrical" />
+        <activity android:name=".electrical.MyListElectrical" />
+        <activity android:name=".ViewDesign" />
+        <activity android:name=".electrical.AddElectrical" />
+        <activity android:name=".ForgotPassword" />
+        <activity android:name=".LoginActivity" />
+        <activity
+            android:name=".splashscreen"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+
+        <meta-data
+            android:name="android.app.searchable"
+            android:resource="@xml/searchable" />
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_baseline_notifications_active_24" />
+        <!--
+ Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="@string/default_notification_channel_id" />
+
+        <receiver android:name=".Receiver">
+            <intent-filter>
+                <action android:name="custom_broadcast_filter" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

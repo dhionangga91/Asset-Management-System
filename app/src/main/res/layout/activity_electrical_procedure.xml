@@ -1,0 +1,769 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sop.ElectricalProcedure">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:layout_marginTop="@dimen/activity_vertical_margin">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Preventive Maintenance of Electrical Asset"
+           android:gravity="center"
+           android:textStyle="bold"
+           android:textSize="8pt"
+           android:textColor="#FF4500"/>
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="@dimen/activity_vertical_margin"
+           android:layout_marginRight="5dp"
+           android:layout_marginLeft="5dp">
+
+           <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Menara\nAstra"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="7pt"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="280dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Standard Operating Procedures"
+                    android:textSize="8pt"
+                    android:textStyle="bold"
+                    android:background="@drawable/bordertable"/>
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="\nRef. Eng \nPage : 1/1 "
+                    android:textSize="6pt"
+                    android:gravity="right" />
+
+           </TableRow>
+
+           <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bordertable">
+
+             <TextView
+                android:layout_width="100dp"
+                android:layout_height="25dp"
+                android:layout_margin="3dp"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PREVENTIVE MAINTENANCE of MV Panel"
+                android:textSize="7pt"
+                android:textStyle="bold"/>
+
+            </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:text=" Issued by : \n Chief Engineering"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+
+               <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:text="Approved by : \nBuilding Manager "
+                android:textStyle="bold"
+                android:gravity="right"
+                android:layout_weight="1" />
+
+            </TableRow>
+
+           <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="BUSINESS OBJECTIVE\nPrevent Panel Burning"
+                    android:gravity="center" />
+           </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="RELEVANT DEPARTMENT\nEngineering Front Office"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="POLICY\nSafety Security and Environtment"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:layout_weight="1"
+                    android:text="PROCESS"
+                    android:textStyle="bold"
+                    android:gravity="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/bordertable">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:text="1. Check the voltage on the panel, if it can be turned off, it should be turned off.\n2. Check the MCB / MCCB conditions in normal conditions with an infrared device. \n3. Check the cable connection on the MCB / MCCB must be tight. \n4. Check that the bolts and nuts on the bus bar must be tight. \n5. Clean the surrounding of the panel and the MCB / MCCB free of dust using a vacuum cleaner. \n6. Replace accessories panel that interfere with operations (indicator lamp / meter) \n7. Check again that the voltage after being treated must be the same as before"/>
+            </TableRow>
+
+       </TableLayout>
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginRight="5dp">
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Menara\nAstra"
+                   android:textColor="@color/colorAccent"
+                   android:textSize="7pt"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="280dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Standard Operating Procedures"
+                   android:textSize="8pt"
+                   android:textStyle="bold"
+                   android:background="@drawable/bordertable"/>
+
+               <TextView
+                   android:layout_width="160dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_margin="5dp"
+                   android:text="\nRef. Eng \nPage : 1/1 "
+                   android:textSize="6pt"
+                   android:gravity="right" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="25dp"
+                   android:layout_margin="3dp"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:text="PREVENTIVE MAINTENANCE of LV Panel"
+                   android:textSize="7pt"
+                   android:textStyle="bold"/>
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:text=" Issued by : \n Chief Engineering"
+                   android:layout_weight="1"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:text="Approved by : \nBuilding Manager "
+                   android:textStyle="bold"
+                   android:gravity="right"
+                   android:layout_weight="1" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="BUSINESS OBJECTIVE\nPrevent Panel Burning"
+                   android:gravity="center" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="RELEVANT DEPARTMENT\nEngineering Front Office"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="POLICY\nSafety Security and Environtment"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="PROCESS"
+                   android:textStyle="bold"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:text="1. Check the voltage on the panel, if it can be turned off, it should be turned off.\n2. Check the MCB / MCCB conditions in normal conditions with an infrared device. \n3. Check the cable connection on the MCB / MCCB must be tight. \n4. Check that the bolts and nuts on the bus bar must be tight. \n5. Clean the surrounding of the panel and the MCB / MCCB free of dust using a vacuum cleaner. \n6. Replace accessories panel that interfere with operations (indicator lamp / meter) \n7. Check again that the voltage after being treated must be the same as before"/>
+           </TableRow>
+
+
+       </TableLayout>
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginRight="5dp">
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="30dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Menara\nAstra"
+                   android:textColor="@color/colorAccent"
+                   android:textSize="7pt"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="300dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Standard Operating Procedures"
+                   android:textSize="8pt"
+                   android:textStyle="bold"
+                   android:background="@drawable/bordertable"/>
+
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_margin="5dp"
+                   android:text="\nRef. Eng \nPage : 1/1 "
+                   android:textSize="6pt"
+                   android:gravity="right" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="25dp"
+                   android:layout_margin="3dp"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:text="PREVENTIVE MAINTENANCE of GENERATOR SET"
+                   android:textSize="7pt"
+                   android:textStyle="bold"/>
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable"
+               android:gravity="center_horizontal">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text=" Issued by : \n Chief Engineering"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:gravity="right"
+                   android:text="Approved by : \nBuilding Manager "
+                   android:textStyle="bold" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="BUSINESS OBJECTIVE\nPrepare GenSet for Automatically Running"
+                   android:gravity="center" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="RELEVANT DEPARTMENT\nEngineering Front Office"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="POLICY\nSafety Security and Environtment"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="PROCESS"
+                   android:textStyle="bold"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:text="1. Move the GCP selector to the off position.\n2. Check the condition of the oil, oil filter, air filter, and radiator water.\n3. Check for leaks in the generator body.\n4. Check the fuel installation.\n5. Clean the generator body and electrical panels.\n6. Turn on the manual generator without load for about 5 minutes.\n7. Check the output voltage.\n8. Return the GCP selector to auto position"/>
+           </TableRow>
+
+
+       </TableLayout>
+
+       <TableLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="5dp"
+           android:layout_marginTop="20dp"
+           android:layout_marginBottom="20dp"
+           android:layout_marginRight="5dp">
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="90dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Menara\nAstra"
+                   android:textColor="@color/colorAccent"
+                   android:textSize="7pt"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="280dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:gravity="center"
+                   android:text="Standard Operating Procedures"
+                   android:textSize="8pt"
+                   android:textStyle="bold"
+                   android:background="@drawable/bordertable"/>
+
+               <TextView
+                   android:layout_width="160dp"
+                   android:layout_height="match_parent"
+                   android:layout_weight="1"
+                   android:layout_margin="5dp"
+                   android:text="\nRef. Eng \nPage : 1/1 "
+                   android:textSize="6pt"
+                   android:gravity="right" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="25dp"
+                   android:layout_margin="3dp"
+                   android:gravity="center"
+                   android:layout_weight="1"
+                   android:text="PREVENTIVE MAINTENANCE of TRANSFORMATOR"
+                   android:textSize="7pt"
+                   android:textStyle="bold"/>
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginLeft="5dp"
+               android:layout_marginRight="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:text=" Issued by : \n Chief Engineering"
+                   android:layout_weight="1"
+                   android:textStyle="bold" />
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:text="Approved by : \nBuilding Manager "
+                   android:textStyle="bold"
+                   android:gravity="right"
+                   android:layout_weight="1" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="BUSINESS OBJECTIVE\nPrevent Transformator Overheat"
+                   android:gravity="center" />
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="RELEVANT DEPARTMENT\nEngineering Front Office"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="100dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="POLICY\nSafety Security and Environtment"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   android:layout_margin="3dp"
+                   android:layout_weight="1"
+                   android:text="PROCESS"
+                   android:textStyle="bold"
+                   android:gravity="center" />
+
+           </TableRow>
+
+           <TableRow
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:gravity="center_horizontal"
+               android:layout_marginRight="5dp"
+               android:layout_marginLeft="5dp"
+               android:background="@drawable/bordertable">
+
+               <TextView
+                   android:layout_width="200dp"
+                   android:layout_height="match_parent"
+                   android:layout_margin="5dp"
+                   android:layout_weight="1"
+                   android:text="1. Make sure the power supply is turned off.\n2. Perform load discharge.\n3. Check the tightness of the bolts and nuts using a torque wrench.\n4. Clean the transformer body with a vacuum cleaner.\n5. Turn the power back on"/>
+           </TableRow>
+
+       </TableLayout>
+
+   </LinearLayout>
+
+</ScrollView>

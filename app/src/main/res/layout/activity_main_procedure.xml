@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sop.MainProcedure"
+    android:padding="@dimen/activity_vertical_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please Read and Follow The Procedure !"
+            android:textSize="20dp"
+            android:textColor="#FF4500"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/electrical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mechanical - Electrical"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cylinder"/>
+
+        <Button
+            android:id="@+id/hvac"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hvac"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cylinder"/>
+
+        <Button
+            android:id="@+id/plumbing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plumbing Sanitary"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cylinder"/>
+
+        <Button
+            android:id="@+id/electronic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Electronic"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cylinder"/>
+
+        <Button
+            android:id="@+id/lift"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elevator"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/cylinder"/>
+
+    </LinearLayout>
+
+</ScrollView>

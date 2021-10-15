@@ -1,0 +1,901 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="A. INTRODUCING"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:justificationMode="inter_word"
+            android:text="Asset Maintenance System is an application designed to facilitate monitoring of the implementation of Preventive Maintenance on each equipment. This android-based application can be accessed anytime and anywhere via an android smartphone connected to internet access. This application is designed to store data in the form of equipment specifications and their images. This application is also used to create a Work Order. Where the data from the Workorder is processed again so that it can become a History Preventive Maintenance for each equipment. With this History, the Preventive Maintenance period for each machine can be adjusted so that the results can be more effective and efficient."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:text="B. MANUAL INSTRUCTION"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_1_access_to_menu"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/login" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/login_page_picture"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_enter_the_application_menu_you_must_log_in_first_n_please_enter_your_email_account_and_password_n_if_both_are_correct_you_will_be_shown_the_dashboard_menu"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_2_forgot_password"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/forgot" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/forgot_password_theme"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_you_can_t_access_the_application_because_you_forgot_your_password_then_you_don_t_need_to_worry_n_on_the_login_page_please_click_forgot_password_as_in_the_picture_n_in_the_text_input_please_type_your_registered_email_address_n_click_the_reset_button_n_wait_a_few_moments_then_you_will_be_sent_a_link_to_change_the_password_n_press_back_to_cancel"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/resetpass" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/password_reset_form"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Note: The email address entered must be a valid and previously registered email address."
+            android:textColor="#FF4500"
+            android:textStyle="italic"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_3_dashboard_menu"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/dashboard"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/dashboard_page"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/if_you_have_successfully_logged_in_you_will_automatically_be_shown_the_dashboard_menu_n_on_the_dashboard_your_username_will_be_displayed_like_a_circle_in_the_image_n_on_the_dashboard_the_application_menu_is_shown_in_a_grid_as_shown_n_the_symbol_in_the_upper_right_corner_indicated_by_an_arrow_is_a_button_to_logout_n_while_the_symbol_in_the_upper_left_corner_is_the_menu_for_setting_and_manual_instructions"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_4_how_to_add_assets"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/addaset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_1"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/addhomeaset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_2"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/on_the_dashboard_menu_please_click_the_button_for_the_type_of_asset_you_want_to_add_for_example_the_image_is_an_electrical_asset_picture_1_n_you_will_be_displayed_asset_data_that_has_been_previously_registered_n_to_register_a_new_asset_please_click_the_add_button_in_the_lower_right_corner_shown_in_picture_2_the_image_is_marked_with_a_red_arrow_while_the_home_button_blue_arrow_to_return_to_the_dashboard_n_please_fill_in_all_asset_data_to_be_input_including_images_n_click_the_checklist_button_in_the_lower_right_corner_to_add_assets_picture_3"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/submitaset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_3"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_5_how_to_edit_update_assets"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/updateasset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_4"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/to_edit_a_registered_asset_please_hold_it_for_a_long_time_on_the_asset_you_want_to_edit_then_several_menu_options_will_appear_as_shown_in_the_picture_4_n_click_the_update_menu_n_please_edit_the_asset_data_that_will_be_changed_n_click_the_update_button_at_the_bottom_to_edit_the_data_shown_in_picture_5"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/updateaset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_5"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="6. Add New Workorder*"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/submitwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_7"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-To create a new workorder select the assets\n-To create a workorder long hold and multiple menus will be displayed (picture 4)\n-Select Add Workorder menu\n-You will then be shown the workorder form (picture 7)\n-Please fill in workorder data\n-Click the submit button at the bottom to create a  workorder\n-If the workorder is successfully created you will get a notification in the form of a wo number that has been created (shown in the picture 8)\n-Workorders with status In Queue will be marked with a person icon on the topright side of the workorder form(picture 9)"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/newwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_8"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/woinqueue"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_9"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="7. Start Workorder"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/womenu"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_10"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/editwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_11"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-To start the workorder that has been created,on the dashboard select the workorder menu\n-Select the workorder asset type(picture 10)\n-You will be shown the workorder list\n-On the workorder you want to Start press and hold then several menu will appear (picture 11)\n-Click start menu workorders (picture 12)\n-Then workorder status change to On Progress"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/wostart"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_12"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="@string/_8_finish_workorder"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/finishwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_13"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-Please select the work order that will be finished.\n-Press and hold then click the Finish menu (picture 11).\n-On the workorder form (picture 13) click the finish button.\n-The workorder status will change to finish.\n-If the workorder is successfully completed then it will appear notification that the workorder has been completed by PIC."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="9. Approve Workorder*"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Work orders with finish status will be checked by the supervisor. If they meet the requirements, the supervisor will approve it. The steps are shown in Picture 14 and 15."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/approvewo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_14"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/woaaprove"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_15"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="10. Reject Workorder*"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/rejectwo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_16"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/woreject"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_17"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If the work order does not meet the requirements, the supervisor will reject the work order. The method is shown in Picture 16 and 17. If the workorder status has changed to Reject, a notification will appear (picture 18)."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/notifreject"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_18"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="11. Add Preventive Maintenance History*"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/addhistory"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/picture_19"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You can add your PM history with Approved status.\n-On the workorder menu (picture 11) select the Add history menu.\n-Then the form will appear (picture 19).\n-After that, click the submit button."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="12. Create Report PM History"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/history"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_20"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PM history can be exported to .pdf format in the following steps.\n-In picture 4, click on the menu PM History.\n-PM History will appear on the assets that have been previously selected(picture 20).\n-In the lower left corner click the download button to export data.\n-The results will be saved on your smartphone.\n-It will look like in picture 21 and 22"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/pdflokal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_21"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/pdf"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_22"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="13. Deactivate Asset*"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/deactivateasset"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_23"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/assetdeactivate"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_24"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assets that cannot be repaired will have their status deactivated as follows.\n-Select the Deactivate menu as shown in picture 4.\n-The Deactivate form will appear(picture 23).\n-Click Deactivate to submit.\n-Picture 24 shows asset with Inactivate status."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Asset status will be Inactive permanently !"
+            android:textSize="8pt"
+            android:gravity="left"
+            android:textColor="#FF4500"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="14. Read The Procedure !"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/menusop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_25"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/sop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_26"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To see the maintenance procedure, please select the Procedure menu on the Dashboard.\n-Then select the asset type (picture 25).\n-Then the maintenance procedure will appear (picture 26)."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="15. Change Password"
+            android:textStyle="bold"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/drawer"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_27"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/gantipass"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="Picture_28"
+            android:textSize="6pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="-In the drawer menu, please select Settings (picture 27).\n-Enter your email.\n-The reset link will be sent to the email.\n-Please follow the instructions."
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:text="@string/remarks_it_can_only_be_done_by_the_administrator"
+            android:textStyle="italic"
+            android:textColor="#FF4500"
+            android:textSize="8pt"
+            android:gravity="left"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp"
+            android:text="@string/thank_you_for_reading_and_using_the_application"
+            android:textSize="10pt"
+            android:textStyle="italic"
+            android:gravity="center"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
